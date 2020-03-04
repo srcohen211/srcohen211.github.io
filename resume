@@ -1,0 +1,58 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="author" content="Samuel Cohen">
+    <meta name="description" content="Samuel's resume">
+    <title> Sam Cohens Resume</title>
+  </head>
+
+  <body>
+
+    <h1>Samuel Cohen</h1>
+
+
+    <img src="images/IMG_1972.jpeg" alt="me with my dad" width="500" height="333">
+
+<h2>Education</h2>
+
+<h3>University of Miami</h3>
+<p><em>Bachelor of Science</em>, Philosophy major </p>
+<h2>Experience</h2>
+<p>Intern at IMI realestate group.</p>
+<h2>Skills</h2>
+<p>Proficient in Atom, and powerpoint </p>
+<h2>Hobbies</h2>
+<ul>
+  <li>Avid fantasy football player/champion</li>
+  <li>Basketball Watcher</li>
+  <li> Rare Florida Hockey fan</li>
+  <li>Miami Soccer Advocate</li>
+</ul>
+
+
+
+<!-- This is a sweet resume !-->
+<table>
+  <th>
+    <td>Phone</td>
+    <td>786-449-9889</td>
+  </tr>
+  <th>
+    <th>address</th>
+    <td><address> 211 ball bay dr
+      Miami, Fl 33154 </address></td>
+  </tr>
+  <tr>
+    <th>Email</th>
+    <td>Srcohen211@me.com</td>
+  </tr>
+</table>
+
+
+
+<h2>Links</h2>
+<p><a href="www.imiliving.com"> IMI</a></p>
+<p><a href="www.canelink.com"> <b>University of Miami,</b> </a></p>
+  </body>
+</html>
