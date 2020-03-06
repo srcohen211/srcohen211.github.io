@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <style>
+p.a {
+  font: 15px arial, sans-serif;
+}
+
+p.b {
+  font: italic bold 12px/30px Georgia, serif;
+}
+h1 {
+  background-color: green;
+}
+p.three {
+  border-style: dotted;
+  border-color: blue;
+}
+
+p {
+  background-color: yellow;
+}
+</style>
+
     <meta charset="utf-8">
     <meta name="author" content="Samuel Cohen">
     <meta name="description" content="Samuel's resume">
@@ -16,11 +37,11 @@
 <h2>Education</h2>
 
 <h3>University of Miami</h3>
-<p><em>Bachelor of Science</em>, Philosophy major </p>
+<p class="three a"><em>Bachelor of Science</em>, Philosophy major </p>
 <h2>Experience</h2>
-<p>Intern at IMI realestate group.</p>
+<p class="a">Intern at IMI realestate group.</p>
 <h2>Skills</h2>
-<p>Proficient in Atom, and powerpoint </p>
+<p class="a">Proficient in Atom, and powerpoint </p>
 <h2>Hobbies</h2>
 <ul>
   <li>Avid fantasy football player/champion</li>
@@ -51,29 +72,22 @@
 
 
 <h2>Links</h2>
-
-<p><a href="www.imiliving.com"> <b>IMI</b> </a></p>
-<p><a href="www.canelink.com"> <b>University of Miami</b> </a></p>
 <style>
-/* unvisited link */
-a:link {
-  color: red;
-}
-
-/* visited link */
-a:visited {
-  color: green;
-}
-
-/* mouse over link */
-a:hover {
+a {
   color: hotpink;
 }
+</style>
+</head>
+<body>
 
-/* selected link */
-a:active {
-  color: blue;
+<p class="b"><b><a href="www.imiliving.com" target="_blank">IMI</a></b></p>
+<p class="b"><a href="www.canelink.com"> <b>University of Miami</b> </a></p>
+
+a:hover {
+  text-decoration: underline;
 }
+</body>
+
 </style>
   </body>
 </html>
