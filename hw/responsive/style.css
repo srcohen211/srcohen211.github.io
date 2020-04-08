@@ -1,0 +1,24 @@
+img {
+  width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template: 1fr 1fr;
+}
+
+.grid-hed {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.grid-img {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.grid-text {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
