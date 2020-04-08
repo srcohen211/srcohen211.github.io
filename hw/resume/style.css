@@ -1,19 +1,41 @@
+body {
+  font-family: 'Inria Sans', sans-serif;
+}
 
 p.a {
-font: 15px arial, sans-serif;
+  font: 15px arial, sans-serif;
 }
 
 p.b {
-font: italic bold 12px/30px Georgia, serif;
+  font: 12px/30px Georgia, serif;
 }
+
 h1 {
-background-color: green;
+  background-color: green;
 }
+
 p.three {
-border-style: dotted;
-border-color: blue;
+  border-style: dotted;
+  border-color: blue;
 }
 
 p {
-background-color: yellow;
+  background-color: yellow;
+}
+
+a {
+  text-decoration: none;
+  color: hotpink;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.name {
+  font-size: 300%;
+}
+
+.mediumtext {
+  color: green;
 }
