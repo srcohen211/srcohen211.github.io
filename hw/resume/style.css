@@ -1,0 +1,19 @@
+
+p.a {
+font: 15px arial, sans-serif;
+}
+
+p.b {
+font: italic bold 12px/30px Georgia, serif;
+}
+h1 {
+background-color: green;
+}
+p.three {
+border-style: dotted;
+border-color: blue;
+}
+
+p {
+background-color: yellow;
+}
