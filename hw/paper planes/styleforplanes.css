@@ -1,0 +1,9 @@
+body {
+  max-width: 800px;
+  font-family: 'comic Sans', cursive;
+  background-color: pink;
+}
+
+img {
+  width: 100%;
+}
