@@ -1,0 +1,91 @@
+<html>
+
+<head>
+  <title>Sushi Erika</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" src="background.cycle.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(".rotatortwo").backgroundCycle({
+        imageUrls: [
+          'images/o-6.jpg',
+          'images/tunatruffle.jpg',
+          'images/firecrackerroll.jpg',
+          'images/o-4.jpg',
+          'images/o-3.jpg',
+          'images/o-2.jpg'
+        ],
+        fadeSpeed: 2000,
+        duration: 2000,
+        backgroundSize: SCALING_MODE_COVER
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <section class="navbar">
+    <nav>
+      <div class="logo"> Sushi Erika </div>
+      <a href="index.htm">Home</a>
+      <a href="menu.htm">Menu</a>
+      <a href="about.htm">About</a>
+      <a href="contact.htm" class="active">Contact</a>
+    </nav>
+  </section>
+  <!-- this is the part that's like to change from page to page -->
+  <section>
+    <h1 class="contact title">Contact Us</h1>
+    <h2> LOCATION AND HOURS: </h2>
+    <div class="location">
+      <div class="contactaddress">
+        Find us at
+        1700 John F Kennedy Causeway #100,
+        North Bay Village, FL 33141
+
+        <br> </br> <br> Make a reservation with OpenTable or call us at (786) 216-7216
+        </br>
+      </div>
+      <div class="map">
+        <span class="underline">LUNCH </span>
+        Monday–Friday, 11:30 AM–2:30 PM <br> </br>
+        Saturday 11:30 AM–2:30 PM
+        <br> </br>
+
+        <span class="underline">DINNER </span> Sunday, 4:30 PM–9 PM <br> </br>
+        Monday–Thursday, 5 PM–9:30 PM <br> </br>
+        Friday–Saturday, 5 PM–10:30 PM <br> </br>
+        <br> Check out our awesome slideshow below! </br>
+      </div>
+    </div>
+    <div class="rotatortwo">
+    </div>
+
+
+  </section>
+
+
+  <footer>
+    <div class="bottom">
+      <a href="https://www.opentable.com/s/?covers=2&dateTime=2020-05-01%2019%3A00&metroId=17&pinnedRids%5B0%5D=686650&enableSimpleCuisines=true&includeTicketedAvailability=true&userlongitude=-80.1936&userlatitude=25.7738&pageType=0"> <span
+          class="white">Make A Reservation</span></a>
+      <div class="jefferson">
+        1700 John F Kennedy Causeway #100, North Bay Village, FL 33141
+      </div>
+      <div class="socialmedia">
+        <div class="yelp">
+          <a href="https://www.yelp.com/biz/sushi-erika-north-bay-village"> <img src="images/yelp.png"> </a>
+        </div>
+        <div class="facebook">
+          <a href="https://www.facebook.com/pages/Sushi-Erika/2128277857431741"> <img src="images/facebook.png"></a>
+        </div>
+        <div>
+        </div>
+  </footer>
+
+</body>
+
+</html>
