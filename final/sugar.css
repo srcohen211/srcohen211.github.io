@@ -8,17 +8,6 @@ img {
   width: 100%;
 }
 
-footer {
-  background: url(images/grass-footer.png) center bottom;
-  height: 180px;
-  display: flex;
-  justify-content: space-between;
-  text-decoration: none;
-  margin-top: -60px;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-}
-
 .grid-container {
   display: grid;
   grid-template-rows: auto 1fr;
@@ -140,35 +129,13 @@ h2 {
   flex-direction: column;
 }
 
-.contactaddress {
-  color: #25B02B;
-  font-family: 'Muli';
-  font-size: 25px;
-  margin-left: 400px;
-  width: 650px;
-  padding: 15px;
-  margin-bottom: 60px;
-}
-
-.map {
-  color: #25B02B;
-  font-family: 'Muli';
-  font-size: 25px;
-  width: 515px;
-  padding: 10px;
-  margin-left: 450px;
-  margin: center;
-  margin-top: -35px;
-}
-
-.underline {
-  text-decoration: underline;
-}
-
-.map:hover {
-  color: #000000;
-}
-
-.contactaddress:hover {
-  color: #000000;
+footer {
+  background: url(images/grass-footer.png) center bottom;
+  height: 180px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  margin-top: -60px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
