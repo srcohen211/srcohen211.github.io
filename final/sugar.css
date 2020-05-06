@@ -116,14 +116,6 @@ nav a {
   margin-top: -60px;
 }
 
-h2 {
-  font-family: 'Arvo';
-  font-size: 35px;
-  color: #000000;
-  text-align: center;
-  margin-top: -75px;
-}
-
 .location {
   display: flex;
   flex-direction: column;
