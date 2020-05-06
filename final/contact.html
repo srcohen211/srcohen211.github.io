@@ -7,22 +7,23 @@
   <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
-
-  $(document).ready(function() {
-  $(".rotator").backgroundCycle({
-  imageUrls: [
-  'images/o-6.jpg',
-  'images/tunatruffle.jpg',
-  'images/firecrackerroll.jpg',
-  'images/o-4.jpg',
-  'images/o-3.jpg',
-  'images/o-2.jpg',
-  ],
-  fadeSpeed: 2000,
-  duration: 2000,
-  backgroundSize: SCALING_MODE_COVER
-  });
-  });
+  <script type="text/javascript" src="background.cycle.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(".rotator").backgroundCycle({
+        imageUrls: [
+          'images/o-6.jpg',
+          'images/tunatruffle.jpg',
+          'images/firecrackerroll.jpg',
+          'images/o-4.jpg',
+          'images/o-3.jpg',
+          'images/o-2.jpg',
+        ],
+        fadeSpeed: 2000,
+        duration: 2000,
+        backgroundSize: SCALING_MODE_COVER
+      });
+    });
   </script>
 </head>
 
@@ -58,7 +59,7 @@
         <span class="underline">DINNER </span> Sunday, 4:30 PM–9 PM <br> </br>
         Monday–Thursday, 5 PM–9:30 PM <br> </br>
         Friday–Saturday, 5 PM–10:30 PM <br> </br>
-        <br> Check out our awesome slideshow below! </br>
+
       </div>
     </div>
     <div class="rotator">
